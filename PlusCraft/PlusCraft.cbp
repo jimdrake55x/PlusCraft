@@ -55,6 +55,7 @@
 			<Add directory="D:/CPlusLibraries/SFML-2.4.2-windows-gcc-4.9.2-tdm-32-bit/SFML-2.4.2/lib" />
 			<Add directory="D:/CPlusLibraries/glew-2.1.0-win32/glew-2.1.0/lib/Release/Win32" />
 		</Linker>
+		<Unit filename="Source/Display.h" />
 		<Unit filename="glew32.dll" />
 		<Unit filename="main.cpp" />
 		<Unit filename="openal32.dll" />
