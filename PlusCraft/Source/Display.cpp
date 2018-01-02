@@ -19,7 +19,7 @@ namespace Display
         settings.minorVersion = 3; //Using OpenGL version 3.3
 
         window = std::make_unique<sf::RenderWindow>(sf::VideoMode(WIDTH,HEIGHT),
-                                                    "Window",
+                                                    "PlusCraft",
                                                     sf::Style::Close,
                                                     settings);
 

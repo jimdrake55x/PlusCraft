@@ -59,6 +59,8 @@
 		<Unit filename="Source/Application.h" />
 		<Unit filename="Source/Display.cpp" />
 		<Unit filename="Source/Display.h" />
+		<Unit filename="Source/Model.cpp" />
+		<Unit filename="Source/Model.h" />
 		<Unit filename="Source/States/Game_State.cpp" />
 		<Unit filename="Source/States/Game_State.h" />
 		<Unit filename="Source/States/Playing_State.cpp" />

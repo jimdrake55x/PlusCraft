@@ -392,7 +392,7 @@
 
 1514873509 d:\workprojects\pluscraft\pluscraft\source\display.h
 
-1514873275 source:d:\workprojects\pluscraft\pluscraft\source\display.cpp
+1514928648 source:d:\workprojects\pluscraft\pluscraft\source\display.cpp
 	"Display.h"
 	<memory>
 	<SFML/Graphics.hpp>
@@ -434,4 +434,23 @@
 1514928073 source:d:\workprojects\pluscraft\pluscraft\source\model.cpp
 	"Model.h"
 	<GL/glew.h>
+
+1514931154 source:d:\workprojects\pluscraft\pluscraft\source\shader\shader_loader.cpp
+	"Shader_Loader.h"
+	<GL/glew.h>
+	<string>
+	<fstream>
+	<sstream>
+	<stdexcept>
+
+1514930024 d:\workprojects\pluscraft\pluscraft\source\shader\shader_loader.h
+	<GL/glew.h>
+	<string>
+
+1514930571 source:d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.cpp
+	"Shader_Program.h"
+
+1514930700 d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.h
+	<GL/glew.h>
+	<string>
 
