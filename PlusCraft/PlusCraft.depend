@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1514595567 source:d:\workprojects\pluscraft\pluscraft\main.cpp
+1514873382 source:d:\workprojects\pluscraft\pluscraft\main.cpp
+	"Source\Display.h"
 
 1486736397 d:\cpluslibraries\sfml-2.4.2-windows-gcc-4.9.2-tdm-32-bit\sfml-2.4.2\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -388,4 +389,39 @@
 	<SFML/System/String.hpp>
 	<string>
 	<vector>
+
+1514873509 d:\workprojects\pluscraft\pluscraft\source\display.h
+
+1514873275 source:d:\workprojects\pluscraft\pluscraft\source\display.cpp
+	"Display.h"
+	<memory>
+	<SFML/Graphics.hpp>
+	<GL/glew.h>
+
+1514875927 source:d:\workprojects\pluscraft\pluscraft\source\application.cpp
+	"Application.h"
+	"Display.h"
+	<memory>
+	"States/Game_State.h"
+	"States/Playing_State.h"
+
+1514874836 d:\workprojects\pluscraft\pluscraft\source\application.h
+	<stack>
+	<memory>
+	"States/Game_State.h"
+
+1514875235 d:\workprojects\pluscraft\pluscraft\source\states\game_state.h
+
+1514875366 d:\workprojects\pluscraft\pluscraft\source\states\playing_state.h
+	"Game_State.h"
+
+1514875801 source:d:\workprojects\pluscraft\pluscraft\source\states\game_state.cpp
+	"Game_State.h"
+
+1514875835 source:d:\workprojects\pluscraft\pluscraft\source\states\playing_state.cpp
+	"Playing_State.h"
+
+1514876155 source:d:\workprojects\pluscraft\pluscraft\source\main.cpp
+	"Application.h"
+	"Display.h"
 

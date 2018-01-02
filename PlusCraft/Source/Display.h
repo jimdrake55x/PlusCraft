@@ -10,7 +10,6 @@ namespace Display
 
     void checkForClose();
     bool isOpen();
-
 }
 
 #endif // DISPLAY_H_INCLUDED
