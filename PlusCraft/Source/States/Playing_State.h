@@ -2,6 +2,7 @@
 #define PLAYING_STATE_H_INCLUDED
 
 #include "Game_State.h"
+#include "../Model.h"
 
 class Application;
 
@@ -16,6 +17,8 @@ namespace State
             void update () override;
             void draw   () override;
 
+        private:
+            Model m_model;
 
     };
 }

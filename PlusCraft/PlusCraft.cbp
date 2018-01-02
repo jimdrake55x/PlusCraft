@@ -55,9 +55,16 @@
 			<Add directory="D:/CPlusLibraries/SFML-2.4.2-windows-gcc-4.9.2-tdm-32-bit/SFML-2.4.2/lib" />
 			<Add directory="D:/CPlusLibraries/glew-2.1.0-win32/glew-2.1.0/lib/Release/Win32" />
 		</Linker>
+		<Unit filename="Source/Application.cpp" />
+		<Unit filename="Source/Application.h" />
+		<Unit filename="Source/Display.cpp" />
 		<Unit filename="Source/Display.h" />
+		<Unit filename="Source/States/Game_State.cpp" />
+		<Unit filename="Source/States/Game_State.h" />
+		<Unit filename="Source/States/Playing_State.cpp" />
+		<Unit filename="Source/States/Playing_State.h" />
+		<Unit filename="Source/main.cpp" />
 		<Unit filename="glew32.dll" />
-		<Unit filename="main.cpp" />
 		<Unit filename="openal32.dll" />
 		<Unit filename="sfml-audio-2.dll" />
 		<Unit filename="sfml-audio-d-2.dll" />
