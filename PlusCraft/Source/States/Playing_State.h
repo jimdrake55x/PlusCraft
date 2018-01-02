@@ -4,6 +4,7 @@
 #include "Game_State.h"
 #include "../Model.h"
 #include "../Shader/Simple_Shader.h"
+#include "../Texture/Texture.h"
 
 class Application;
 
@@ -22,6 +23,7 @@ namespace State
             Model m_model;
 
             Shader::Simple_Shader m_shader;
+            Texture::Basic_Texture m_texture;
 
     };
 }

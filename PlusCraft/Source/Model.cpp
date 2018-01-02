@@ -1,12 +1,14 @@
 #include "Model.h"
 #include <GL/glew.h>
 
-Model::Model(const std::vector<GLfloat>& vertexPositions)
+Model::Model(const std::vector<GLfloat>& vertexPositions,
+             const std::vector<GLfloat>& textureCoordinates)
 {
     glGenVertexArrays(1, &m_vao);
     glBindVertexArray(m_vao);
 
     addVBO(2,vertexPositions);
+    addVBO(2,textureCoordinates);
 
     glBindVertexArray(0);
     glBindBuffer(GL_ARRAY_BUFFER,0);

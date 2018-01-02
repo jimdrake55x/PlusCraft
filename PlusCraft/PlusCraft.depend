@@ -412,15 +412,16 @@
 
 1514875235 d:\workprojects\pluscraft\pluscraft\source\states\game_state.h
 
-1514934217 d:\workprojects\pluscraft\pluscraft\source\states\playing_state.h
+1514936166 d:\workprojects\pluscraft\pluscraft\source\states\playing_state.h
 	"Game_State.h"
 	"../Model.h"
 	"../Shader/Simple_Shader.h"
+	"../Texture/Texture.h"
 
 1514875801 source:d:\workprojects\pluscraft\pluscraft\source\states\game_state.cpp
 	"Game_State.h"
 
-1514934207 source:d:\workprojects\pluscraft\pluscraft\source\states\playing_state.cpp
+1514936414 source:d:\workprojects\pluscraft\pluscraft\source\states\playing_state.cpp
 	"Playing_State.h"
 	<iostream>
 	"../Shader/Simple_Shader.h"
@@ -429,11 +430,11 @@
 	"Application.h"
 	"Display.h"
 
-1514927370 d:\workprojects\pluscraft\pluscraft\source\model.h
+1514935969 d:\workprojects\pluscraft\pluscraft\source\model.h
 	<GL/glew.h>
 	<vector>
 
-1514928073 source:d:\workprojects\pluscraft\pluscraft\source\model.cpp
+1514936010 source:d:\workprojects\pluscraft\pluscraft\source\model.cpp
 	"Model.h"
 	<GL/glew.h>
 
@@ -462,4 +463,12 @@
 
 1514933987 source:d:\workprojects\pluscraft\pluscraft\source\shader\simple_shader.cpp
 	"Simple_Shader.h"
+
+1514935769 d:\workprojects\pluscraft\pluscraft\source\texture\texture.h
+	<GL/glew.h>
+	<string>
+
+1514935760 source:d:\workprojects\pluscraft\pluscraft\source\texture\texture.cpp
+	"Texture.h"
+	<SFML/Graphics/Image.hpp>
 
