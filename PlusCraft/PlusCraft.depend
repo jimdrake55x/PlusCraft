@@ -412,16 +412,18 @@
 
 1514875235 d:\workprojects\pluscraft\pluscraft\source\states\game_state.h
 
-1514926044 d:\workprojects\pluscraft\pluscraft\source\states\playing_state.h
+1514934217 d:\workprojects\pluscraft\pluscraft\source\states\playing_state.h
 	"Game_State.h"
 	"../Model.h"
+	"../Shader/Simple_Shader.h"
 
 1514875801 source:d:\workprojects\pluscraft\pluscraft\source\states\game_state.cpp
 	"Game_State.h"
 
-1514926237 source:d:\workprojects\pluscraft\pluscraft\source\states\playing_state.cpp
+1514934207 source:d:\workprojects\pluscraft\pluscraft\source\states\playing_state.cpp
 	"Playing_State.h"
 	<iostream>
+	"../Shader/Simple_Shader.h"
 
 1514876155 source:d:\workprojects\pluscraft\pluscraft\source\main.cpp
 	"Application.h"
@@ -447,10 +449,17 @@
 	<GL/glew.h>
 	<string>
 
-1514930571 source:d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.cpp
+1514933802 source:d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.cpp
 	"Shader_Program.h"
+	"Shader_Loader.h"
 
-1514930700 d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.h
+1514933734 d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.h
 	<GL/glew.h>
 	<string>
+
+1514933689 d:\workprojects\pluscraft\pluscraft\source\shader\simple_shader.h
+	"Shader_Program.h"
+
+1514933987 source:d:\workprojects\pluscraft\pluscraft\source\shader\simple_shader.cpp
+	"Simple_Shader.h"
 

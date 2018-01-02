@@ -3,12 +3,14 @@
 
 namespace Shader
 {
+    //Constructor
     Shader_Program::Shader_Program(const std::string& vertexShaderFile, const std::string& fragmentShaderFile)
     : m_programID (loadShader(vertexShaderFile, fragmentShaderFile))
     {
 
     }
 
+    //Destructor
     Shader_Program::~Shader_Program()
     {
         glDeleteProgram(m_programID);
@@ -22,5 +24,10 @@ namespace Shader
     void Shader_Program::unbind()
     {
         glUseProgram(0);
+    }
+
+    void Shader_Program::bindAttribute(GLuint location, const GLchar* name)
+    {
+        glBindAttribLocation(m_programID,location,name);
     }
 }

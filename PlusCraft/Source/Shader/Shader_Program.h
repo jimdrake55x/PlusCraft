@@ -14,6 +14,9 @@ namespace Shader
             void bind();
             void unbind();
 
+        protected:
+            void bindAttribute(GLuint location, const GLchar* name);
+            virtual void bindAttributes() = 0;
         private:
             //M prefix is Member variable
             //ID of the shader, the shader program
