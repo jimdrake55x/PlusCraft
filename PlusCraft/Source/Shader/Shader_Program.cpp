@@ -31,6 +31,11 @@ namespace Shader
         glUseProgram(0);
     }
 
+    void Shader_Program::loadVector2(GLuint location, const Vector2& vector)
+    {
+        glUniform2f(location, vector.x, vector.y);
+    }
+
     void Shader_Program::loadFloat(GLuint location, float value)
     {
         glUniform1f(location, value);

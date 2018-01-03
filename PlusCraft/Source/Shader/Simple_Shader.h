@@ -2,6 +2,8 @@
 #define SIMPLE_SHADER_H_INCLUDED
 
 #include "Shader_Program.h"
+#include "../GLM_Common.h"
+
 namespace Shader
 {
     class Simple_Shader : public Shader_Program
@@ -10,11 +12,13 @@ namespace Shader
             Simple_Shader();
 
             void setTime(float time);
+            void setPosition(const Vector2 position);
 
         private:
             void getUniformLocations() override;
 
             GLuint m_locationTime = 0;
+            GLuint m_locationPosition = 0;
 
     };
 }

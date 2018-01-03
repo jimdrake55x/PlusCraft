@@ -3,6 +3,9 @@
 
 #include <GL/glew.h>
 #include <string>
+
+#include "../GLM_Common.h"
+
 namespace Shader
 {
     class Shader_Program
@@ -20,6 +23,8 @@ namespace Shader
             GLuint getID() const;
 
             void loadFloat(GLuint location, float value);
+            void loadVector2(GLuint location,const Vector2& vector);
+
         private:
             //M prefix is Member variable
             //ID of the shader, the shader program

@@ -6,6 +6,9 @@
 #include "../Shader/Simple_Shader.h"
 #include "../Texture/Texture.h"
 
+#include "../Temp/Quad.h"
+
+
 class Application;
 
 namespace State
@@ -20,10 +23,10 @@ namespace State
             void draw   (Renderer::Master& renderer) override;
 
         private:
-            Model m_model;
-
             Shader::Simple_Shader m_shader;
             Texture::Basic_Texture m_texture;
+
+            Quad m_quad;
 
     };
 }

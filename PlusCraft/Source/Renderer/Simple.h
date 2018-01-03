@@ -6,21 +6,21 @@
 
 #include "../Shader/Simple_Shader.h"
 
-class Model;
+class Quad;
 
 namespace Renderer
 {
     class Simple
     {
         public:
-            void draw(const Model& model);
+            void draw(const Quad& quad);
 
             void update();
 
         private:
-            void prepare(const Model& model);
+            void prepare(const Quad& quad);
 
-            std::vector<const Model*> m_models;
+            std::vector<const Quad*> m_quads;
             Shader::Simple_Shader m_shader;
             sf::Clock m_clock;
 
