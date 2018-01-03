@@ -390,30 +390,32 @@
 	<string>
 	<vector>
 
-1514936706 d:\workprojects\pluscraft\pluscraft\source\display.h
+1514961381 d:\workprojects\pluscraft\pluscraft\source\display.h
 
-1514936706 source:d:\workprojects\pluscraft\pluscraft\source\display.cpp
+1514961386 source:d:\workprojects\pluscraft\pluscraft\source\display.cpp
 	"Display.h"
 	<memory>
 	<SFML/Graphics.hpp>
 	<GL/glew.h>
 
-1514954580 source:d:\workprojects\pluscraft\pluscraft\source\application.cpp
+1514962158 source:d:\workprojects\pluscraft\pluscraft\source\application.cpp
 	"Application.h"
 	"Display.h"
 	<memory>
 	"States/Game_State.h"
 	"States/Playing_State.h"
 
-1514952984 d:\workprojects\pluscraft\pluscraft\source\application.h
+1514961770 d:\workprojects\pluscraft\pluscraft\source\application.h
 	<stack>
 	<memory>
 	"States/Game_State.h"
 	"Renderer/Master.h"
+	"Entity.h"
 
-1514954556 d:\workprojects\pluscraft\pluscraft\source\states\game_state.h
+1514962233 d:\workprojects\pluscraft\pluscraft\source\states\game_state.h
 
-1514956856 d:\workprojects\pluscraft\pluscraft\source\states\playing_state.h
+1514963744 d:\workprojects\pluscraft\pluscraft\source\states\playing_state.h
+	<vector>
 	"Game_State.h"
 	"../Model.h"
 	"../Shader/Simple_Shader.h"
@@ -423,7 +425,7 @@
 1514936706 source:d:\workprojects\pluscraft\pluscraft\source\states\game_state.cpp
 	"Game_State.h"
 
-1514958416 source:d:\workprojects\pluscraft\pluscraft\source\states\playing_state.cpp
+1514964124 source:d:\workprojects\pluscraft\pluscraft\source\states\playing_state.cpp
 	"Playing_State.h"
 	<iostream>
 	<SFML/System/Clock.hpp>
@@ -437,7 +439,7 @@
 	<GL/glew.h>
 	<vector>
 
-1514954620 source:d:\workprojects\pluscraft\pluscraft\source\model.cpp
+1514959003 source:d:\workprojects\pluscraft\pluscraft\source\model.cpp
 	"Model.h"
 	<GL/glew.h>
 
@@ -453,21 +455,22 @@
 	<GL/glew.h>
 	<string>
 
-1514957752 source:d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.cpp
+1514960194 source:d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.cpp
 	"Shader_Program.h"
 	"Shader_Loader.h"
 
-1514957773 d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.h
+1514960138 d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.h
 	<GL/glew.h>
 	<string>
 	"../GLM_Common.h"
 
-1514957670 d:\workprojects\pluscraft\pluscraft\source\shader\simple_shader.h
+1514960570 d:\workprojects\pluscraft\pluscraft\source\shader\simple_shader.h
 	"Shader_Program.h"
 	"../GLM_Common.h"
 
-1514957384 source:d:\workprojects\pluscraft\pluscraft\source\shader\simple_shader.cpp
+1514961555 source:d:\workprojects\pluscraft\pluscraft\source\shader\simple_shader.cpp
 	"Simple_Shader.h"
+	"../Maths/Matrix.h"
 
 1514936707 d:\workprojects\pluscraft\pluscraft\source\texture\texture.h
 	<GL/glew.h>
@@ -477,21 +480,23 @@
 	"Texture.h"
 	<SFML/Graphics/Image.hpp>
 
-1514956786 d:\workprojects\pluscraft\pluscraft\source\renderer\master.h
+1514962464 d:\workprojects\pluscraft\pluscraft\source\renderer\master.h
 	"Simple.h"
 
-1514956793 source:d:\workprojects\pluscraft\pluscraft\source\renderer\master.cpp
+1514962521 source:d:\workprojects\pluscraft\pluscraft\source\renderer\master.cpp
 	"Master.h"
 	"../Display.h"
 
-1514956637 d:\workprojects\pluscraft\pluscraft\source\renderer\simple.h
+1514962600 d:\workprojects\pluscraft\pluscraft\source\renderer\simple.h
 	<vector>
 	<SFML/System/Clock.hpp>
 	"../Shader/Simple_Shader.h"
+	"../Entity.h"
 
-1514957366 source:d:\workprojects\pluscraft\pluscraft\source\renderer\simple.cpp
+1514962002 source:d:\workprojects\pluscraft\pluscraft\source\renderer\simple.cpp
 	"Simple.h"
 	"../Temp/Quad.h"
+	"../Maths/Matrix.h"
 
 1514958937 source:d:\workprojects\pluscraft\pluscraft\source\temp\quad.cpp
 	"Quad.h"
@@ -501,9 +506,19 @@
 	"../Entity.h"
 	"../Model.h"
 
-1514955764 d:\workprojects\pluscraft\pluscraft\source\entity.h
+1514960602 d:\workprojects\pluscraft\pluscraft\source\entity.h
 	"GLM_Common.h"
 
-1514955741 d:\workprojects\pluscraft\pluscraft\source\glm_common.h
+1514960098 d:\workprojects\pluscraft\pluscraft\source\glm_common.h
 	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1514962958 source:d:\workprojects\pluscraft\pluscraft\source\maths\matrix.cpp
+	"Matrix.h"
+	"../Entity.h"
+	"../Display.h"
+
+1514961014 d:\workprojects\pluscraft\pluscraft\source\maths\matrix.h
+	"../GLM_Common.h"
 

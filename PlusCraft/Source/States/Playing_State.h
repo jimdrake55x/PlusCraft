@@ -1,6 +1,8 @@
 #ifndef PLAYING_STATE_H_INCLUDED
 #define PLAYING_STATE_H_INCLUDED
 
+#include <vector>       //Temp
+
 #include "Game_State.h"
 #include "../Model.h"
 #include "../Shader/Simple_Shader.h"
@@ -18,8 +20,8 @@ namespace State
         public:
             Playing(Application& application);
 
-            void input  () override;
-            void update () override;
+            void input  (Entity& camera) override;
+            void update (Entity& camera) override;
             void draw   (Renderer::Master& renderer) override;
 
         private:
@@ -27,6 +29,7 @@ namespace State
             Texture::Basic_Texture m_texture;
 
             Quad m_quad;
+            std::vector<Quad> m_quads; // Temp
 
     };
 }

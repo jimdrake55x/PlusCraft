@@ -1,5 +1,6 @@
 #include "Simple.h"
 #include "../Temp/Quad.h"
+#include "../Maths/Matrix.h"
 
 namespace Renderer
 {
@@ -8,10 +9,12 @@ namespace Renderer
         m_quads.push_back(&quad);
     }
 
-    void Simple::update()
+    void Simple::update(const Entity& camera)
     {
         m_shader.bind();
         m_shader.setTime(m_clock.getElapsedTime().asSeconds());
+
+        m_shader.setViewMatrix(Maths::createViewMatrix(camera));
 
         for(auto& quad : m_quads)
         {
@@ -25,6 +28,6 @@ namespace Renderer
     void Simple::prepare(const Quad& quad)
     {
         quad.getModel().bind();
-        m_shader.setPosition(quad.position);
+        m_shader.setModelMatrix(Maths::createModelMatrix(quad));
     }
 }

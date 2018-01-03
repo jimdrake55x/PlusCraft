@@ -8,6 +8,8 @@ namespace Renderer
     class Master;
 }
 
+struct Entity;
+
 namespace State
 {
     //Base state class that all states will implement.
@@ -18,8 +20,8 @@ namespace State
             // to worry about it being there.
             Game_State(Application& application);
 
-            virtual void input  () = 0;
-            virtual void update () = 0;
+            virtual void input  (Entity& camera) = 0;
+            virtual void update (Entity& camera) = 0;
             virtual void draw   (Renderer::Master& renderer) = 0;
 
         protected:

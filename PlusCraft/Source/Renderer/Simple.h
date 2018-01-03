@@ -5,17 +5,18 @@
 #include <SFML/System/Clock.hpp>
 
 #include "../Shader/Simple_Shader.h"
+#include "../Entity.h"
 
 class Quad;
+struct Entity;
 
 namespace Renderer
 {
     class Simple
     {
         public:
+            void update(const Entity& camera);
             void draw(const Quad& quad);
-
-            void update();
 
         private:
             void prepare(const Quad& quad);

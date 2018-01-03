@@ -4,7 +4,8 @@
 
 struct Entity
 {
-    Vector2 position;
+    Vector3 position;
+    Vector3 rotation;
 };
 
 #endif // ENTITY_H_INCLUDED
