@@ -55,16 +55,26 @@
 			<Add directory="D:/CPlusLibraries/SFML-2.4.2-windows-gcc-4.9.2-tdm-32-bit/SFML-2.4.2/lib" />
 			<Add directory="D:/CPlusLibraries/glew-2.1.0-win32/glew-2.1.0/lib/Release/Win32" />
 		</Linker>
+		<Unit filename="Data/Shaders/Simple_Fragment.glsl" />
+		<Unit filename="Data/Shaders/Simple_Vertex.glsl" />
 		<Unit filename="Source/Application.cpp" />
 		<Unit filename="Source/Application.h" />
 		<Unit filename="Source/Display.cpp" />
 		<Unit filename="Source/Display.h" />
 		<Unit filename="Source/Model.cpp" />
 		<Unit filename="Source/Model.h" />
+		<Unit filename="Source/Shader/Shader_Loader.cpp" />
+		<Unit filename="Source/Shader/Shader_Loader.h" />
+		<Unit filename="Source/Shader/Shader_Program.cpp" />
+		<Unit filename="Source/Shader/Shader_Program.h" />
+		<Unit filename="Source/Shader/Simple_Shader.cpp" />
+		<Unit filename="Source/Shader/Simple_Shader.h" />
 		<Unit filename="Source/States/Game_State.cpp" />
 		<Unit filename="Source/States/Game_State.h" />
 		<Unit filename="Source/States/Playing_State.cpp" />
 		<Unit filename="Source/States/Playing_State.h" />
+		<Unit filename="Source/Texture/Texture.cpp" />
+		<Unit filename="Source/Texture/Texture.h" />
 		<Unit filename="Source/main.cpp" />
 		<Unit filename="glew32.dll" />
 		<Unit filename="openal32.dll" />

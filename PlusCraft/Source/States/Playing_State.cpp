@@ -7,9 +7,7 @@ std::vector<GLfloat> vertexPositions =
      0.5,0.5,
      -0.5,0.5,
      -0.5,-0.5,
-     -0.5,-0.5,
      0.5,-0.5,
-     0.5,0.5
 };
 
 std::vector<GLfloat> textureCoordinates =
@@ -17,16 +15,20 @@ std::vector<GLfloat> textureCoordinates =
     1.0,1.0,
     0.0,1.0,
     0.0,0.0,
-    0.0,0.0,
     1.0,0.0,
-    1.0,1.0
+};
+
+std::vector<GLuint> indices =
+{
+    0,1,2,
+    2,3,0
 };
 
 namespace State
 {
     Playing::Playing(Application& application)
     :  Game_State(application)
-    ,  m_model  (vertexPositions,textureCoordinates)
+    ,  m_model  (vertexPositions,textureCoordinates,indices)
     {
         m_texture.load("grass");
     }
@@ -47,7 +49,7 @@ namespace State
         m_model.bind();
         m_texture.bind();
 
-        glDrawArrays(GL_TRIANGLES,0,6);
+        glDrawElements(GL_TRIANGLES,m_model.getIndicesCount(),GL_UNSIGNED_INT,nullptr);
 
         m_texture.unbind();
         m_model.unbind();
