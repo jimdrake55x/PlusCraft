@@ -398,21 +398,22 @@
 	<SFML/Graphics.hpp>
 	<GL/glew.h>
 
-1514936706 source:d:\workprojects\pluscraft\pluscraft\source\application.cpp
+1514954580 source:d:\workprojects\pluscraft\pluscraft\source\application.cpp
 	"Application.h"
 	"Display.h"
 	<memory>
 	"States/Game_State.h"
 	"States/Playing_State.h"
 
-1514936706 d:\workprojects\pluscraft\pluscraft\source\application.h
+1514952984 d:\workprojects\pluscraft\pluscraft\source\application.h
 	<stack>
 	<memory>
 	"States/Game_State.h"
+	"Renderer/Master.h"
 
-1514936706 d:\workprojects\pluscraft\pluscraft\source\states\game_state.h
+1514954556 d:\workprojects\pluscraft\pluscraft\source\states\game_state.h
 
-1514936706 d:\workprojects\pluscraft\pluscraft\source\states\playing_state.h
+1514954483 d:\workprojects\pluscraft\pluscraft\source\states\playing_state.h
 	"Game_State.h"
 	"../Model.h"
 	"../Shader/Simple_Shader.h"
@@ -421,20 +422,21 @@
 1514936706 source:d:\workprojects\pluscraft\pluscraft\source\states\game_state.cpp
 	"Game_State.h"
 
-1514952356 source:d:\workprojects\pluscraft\pluscraft\source\states\playing_state.cpp
+1514955075 source:d:\workprojects\pluscraft\pluscraft\source\states\playing_state.cpp
 	"Playing_State.h"
 	<iostream>
 	<SFML/System/Clock.hpp>
+	"../Renderer/Master.h"
 
 1514936707 source:d:\workprojects\pluscraft\pluscraft\source\main.cpp
 	"Application.h"
 	"Display.h"
 
-1514950497 d:\workprojects\pluscraft\pluscraft\source\model.h
+1514954603 d:\workprojects\pluscraft\pluscraft\source\model.h
 	<GL/glew.h>
 	<vector>
 
-1514950551 source:d:\workprojects\pluscraft\pluscraft\source\model.cpp
+1514954620 source:d:\workprojects\pluscraft\pluscraft\source\model.cpp
 	"Model.h"
 	<GL/glew.h>
 
@@ -471,4 +473,20 @@
 1514936707 source:d:\workprojects\pluscraft\pluscraft\source\texture\texture.cpp
 	"Texture.h"
 	<SFML/Graphics/Image.hpp>
+
+1514954957 d:\workprojects\pluscraft\pluscraft\source\renderer\master.h
+	"Simple.h"
+
+1514955069 source:d:\workprojects\pluscraft\pluscraft\source\renderer\master.cpp
+	"Master.h"
+	"../Display.h"
+
+1514954831 d:\workprojects\pluscraft\pluscraft\source\renderer\simple.h
+	<vector>
+	<SFML/System/Clock.hpp>
+	"../Shader/Simple_Shader.h"
+
+1514955051 source:d:\workprojects\pluscraft\pluscraft\source\renderer\simple.cpp
+	"Simple.h"
+	"../Model.h"
 

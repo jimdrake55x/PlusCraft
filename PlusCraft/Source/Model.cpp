@@ -62,12 +62,12 @@ void Model::addEBO(const std::vector<GLuint>& indices)
 
 
 
-void Model::bind()
+void Model::bind() const
 {
     glBindVertexArray(m_vao);
 }
 
-void Model::unbind()
+void Model::unbind() const
 {
     glBindVertexArray(0);
 }
