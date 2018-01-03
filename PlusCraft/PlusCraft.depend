@@ -421,10 +421,10 @@
 1514936706 source:d:\workprojects\pluscraft\pluscraft\source\states\game_state.cpp
 	"Game_State.h"
 
-1514936706 source:d:\workprojects\pluscraft\pluscraft\source\states\playing_state.cpp
+1514952356 source:d:\workprojects\pluscraft\pluscraft\source\states\playing_state.cpp
 	"Playing_State.h"
 	<iostream>
-	"../Shader/Simple_Shader.h"
+	<SFML/System/Clock.hpp>
 
 1514936707 source:d:\workprojects\pluscraft\pluscraft\source\main.cpp
 	"Application.h"
@@ -450,18 +450,18 @@
 	<GL/glew.h>
 	<string>
 
-1514936706 source:d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.cpp
+1514952059 source:d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.cpp
 	"Shader_Program.h"
 	"Shader_Loader.h"
 
-1514936706 d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.h
+1514952019 d:\workprojects\pluscraft\pluscraft\source\shader\shader_program.h
 	<GL/glew.h>
 	<string>
 
-1514936706 d:\workprojects\pluscraft\pluscraft\source\shader\simple_shader.h
+1514952091 d:\workprojects\pluscraft\pluscraft\source\shader\simple_shader.h
 	"Shader_Program.h"
 
-1514936706 source:d:\workprojects\pluscraft\pluscraft\source\shader\simple_shader.cpp
+1514952143 source:d:\workprojects\pluscraft\pluscraft\source\shader\simple_shader.cpp
 	"Simple_Shader.h"
 
 1514936707 d:\workprojects\pluscraft\pluscraft\source\texture\texture.h
