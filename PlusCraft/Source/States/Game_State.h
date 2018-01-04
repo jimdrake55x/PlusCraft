@@ -8,7 +8,7 @@ namespace Renderer
     class Master;
 }
 
-struct Entity;
+class Camera;
 
 namespace State
 {
@@ -20,8 +20,8 @@ namespace State
             // to worry about it being there.
             Game_State(Application& application);
 
-            virtual void input  (Entity& camera) = 0;
-            virtual void update (Entity& camera) = 0;
+            virtual void input  (Camera& camera) = 0;
+            virtual void update (Camera& camera, float deltaTime) = 0;
             virtual void draw   (Renderer::Master& renderer) = 0;
 
         protected:

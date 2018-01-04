@@ -12,12 +12,15 @@ Application::Application()
 
 void Application::runMainGameLoop()
 {
+
+    sf::Clock clock;
     while(Display::isOpen())
     {
+        auto deltaTime = clock.restart().asSeconds();
         m_renderer.clear();
 
         m_states.top()->input(camera);
-        m_states.top()->update(camera);
+        m_states.top()->update(camera, deltaTime);
         m_states.top()->draw(m_renderer);
 
         m_renderer.update(camera);

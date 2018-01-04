@@ -3,11 +3,12 @@
 
 #include "../GLM_Common.h"
 
+class Camera;
 struct Entity;
 
 namespace Maths
 {
-    Matrix4 createViewMatrix        (const Entity& entity);
+    Matrix4 createViewMatrix        (const Camera& entity);
     Matrix4 createModelMatrix       (const Entity& entity);
     Matrix4 createProjectionMatrix  ();
 }

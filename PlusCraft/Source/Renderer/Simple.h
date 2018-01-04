@@ -8,14 +8,14 @@
 #include "../Entity.h"
 
 class Quad;
-struct Entity;
+class Camera;
 
 namespace Renderer
 {
     class Simple
     {
         public:
-            void update(const Entity& camera);
+            void update(const Camera& camera);
             void draw(const Quad& quad);
 
         private:

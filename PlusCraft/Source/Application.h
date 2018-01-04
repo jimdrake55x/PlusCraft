@@ -6,6 +6,7 @@
 
 #include "States/Game_State.h"
 #include "Renderer/Master.h"
+#include "Camera.h"
 #include "Entity.h"
 
 
@@ -22,7 +23,7 @@ class Application
     private:
         std::stack<std::unique_ptr<State::Game_State>> m_states;
         Renderer::Master m_renderer;
-        Entity camera;
+        Camera camera;
 
 
 };
