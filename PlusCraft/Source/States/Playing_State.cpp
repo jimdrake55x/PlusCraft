@@ -11,12 +11,12 @@ namespace State
     Playing::Playing(Application& application)
     :  Game_State(application)
     {
-        m_texture.load("grass");
+        m_texture.load("j");
         m_texture.bind();
 
         m_quad.position.z = -3;
+        m_quad.position.y = -2;
         //m_quad.rotation.x = 90;
-
     }
 
     void Playing::input(Camera& camera)
